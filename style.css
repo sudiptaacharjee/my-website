@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;900&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+    font-size: 16px;
+}
+body p {
+    line-height: 24px;
+}
+header, section {
+    width: 80%;
+    margin: 0 auto;
+}
+h1, h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+}
+h2 {
+    font-size: 48px;
+    color: #363958;
+}
+.menu {
+    text-align: right;
+}
+.menu a {
+    color: #3C3C3C;
+    display: inline-block;
+    padding: 30px 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+section.ha-me{
+    padding: 50px 0;
+}
+.hire-me {
+    margin-bottom: 60px;
+}
+.hire-me, .about-me {
+    overflow: hidden;
+}
+.hire-me h1 {
+    text-transform: uppercase;
+    font-size: 80px;
+    color: #363958;
+    margin-bottom: 25px;
+}
+.hire-me h1 span {
+    display: block;
+    color: #FF3C89;
+    margin-top: -20px;
+}
+.half-part img {
+    width: 100%
+}
+.half-part {
+    width: 47%;
+    float: left;
+}
+.half-part.extra {
+    margin-left: 6%;
+}
+.half-part.pr {
+    padding-right: 12%;
+    width: 35%;
+}
+.half-part.pl{
+    padding-left: 12%;
+    width: 35%;
+}
+.btn-fill {
+    display: inline-block;
+    padding: 20px 30px;
+    background-image: linear-gradient(#6929E9, #4A73E2);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+section.lastet-wp {
+    background-color: #F8F9FC;
+    margin: auto;
+    padding: 100px 10%;
+}
+.lastet-wp h2{
+    text-align: center
+}
+.lastet-wp h2 span {
+    color: #FF3C89;
+}
+.projects{
+    height: 450px;
+}
+.single-project{
+    width: 27%;
+    float: left;
+    box-shadow: 2px 2px 15px gray;
+    background-color: white;
+    padding: 2%;
+    border-radius: 20px;
+    margin-right: 2%;
+    line-height: 28px;
+}
+.single-project.mr{
+    margin-right: 0;
+}
+.pro-img{
+    background-image: url(images/pro-bg-1.png);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.pro-img.bg-2{
+    background-image: url(images/pro-bg-2.png);
+}
+.pro-img.bg-3{
+    margin-right: 0%;
+    background-image: url(images/pro-bg-3.png);
+}
+.single-project h3{
+    color: #363958;
+    font-size: 23px;
+}
+.inquiry {
+    width: 900px;
+    height: 270px;
+    margin: 60px auto;
+    background-image: url(images/inquery-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    overflow: hidden;
+}
+.single-query{
+    width: 40%;
+    padding: 0 10%;
+    float: left;
+    padding-top: 78px;
+}
+.single-query.rt{
+    text-align: right;
+    width: 20%;
+}
+.inquiry h2 {
+    font-size: 64px;
+    color: #fff;
+    margin-top: 18px;
+}
+#btn-color {
+    border: none;
+    background-image: linear-gradient(45deg, #FF2279, #ff91bd);
+    font-size: 16px;
+    cursor: pointer;
+}
+.remember {
+    margin: auto;
+    padding: 100px 10% 120px 10%;
+    background-color: #FF5096;
+    text-align: center;
+}
+.remember h2 {
+    color: #fff;
+    margin: 0 0 20px 0
+}
+.remember input[type="email"] {
+    border: none;
+    padding: 20px;
+    width: 250px;
+    border-radius: 20px 0 0 20px;
+}
+.remember input[type="submit"] {
+    border: none;
+    padding: 20px 30px;
+    border-radius: 0 20px 20px 0;
+    margin-left: -5px;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    background-color:#4A73E2;
+    padding: 25px;
+    color: #fff;
+}
